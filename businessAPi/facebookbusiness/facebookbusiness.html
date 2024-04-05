@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Facebook Business</h1>
+  <ul>
+    {% for page in pages.data %}
+      <li>{{ page.name }} - <a href="https://www.facebook.com/{{ 3609238529329762 }}">View</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
